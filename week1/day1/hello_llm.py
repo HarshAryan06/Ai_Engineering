@@ -24,7 +24,7 @@ messages=[message]
 
 
 response=client.chat.completions.create(model=model, messages=messages)
-print(response)
+# print(response)
 
 print("#---------------#")
 
